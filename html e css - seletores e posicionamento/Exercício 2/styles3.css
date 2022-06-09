@@ -1,0 +1,39 @@
+.centralizar h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: brown;
+    list-style: none;
+}
+
+li:active {
+    color: wheat;
+    list-style: none;
+}
+
+div:hover {
+    
+    border-width: 8px;
+    background-color: blue;
+}
+
+div:nth-child(1) {
+    color: rgb(180, 96, 16);
+}
+
+div:nth-child(2) {
+    color: red
+}
+
+div:nth-child(3) {
+    color:green
+}
+
+div:nth-child(4) {
+    color: rgb(255, 51, 0)
+}
+
+div:nth-child(5) {
+    color:fuchsia
+}
