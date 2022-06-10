@@ -1,8 +1,8 @@
-.centralizar h1, p {
+h1, p {
     text-align: center;
 }
 
-li:hover {
+ul:hover, ol:hover {
     background-color: brown;
     list-style: none;
 }
@@ -10,15 +10,15 @@ li:hover {
 li:active {
     color: wheat;
     list-style: none;
+    font-size: 20px ;
 }
 
 div:hover {
-    
-    border-width: 8px;
-    background-color: blue;
+        border: 6px solid black;
+        background-color: blue;
 }
 
-div:nth-child(1) {
+div:nth-of-type(1) {
     color: rgb(180, 96, 16);
 }
 
@@ -37,3 +37,31 @@ div:nth-child(4) {
 div:nth-child(5) {
     color:fuchsia
 }
+
+div:nth-of-type(1) > h3 {
+    color: purple;
+  }
+
+div:nth-of-type(2) > h3 {
+    color: rgb(119, 247, 119) 
+  }
+
+  div:nth-of-type(3) > h3 {
+    font-size: 20px;
+  }
+
+  div:nth-of-type(4) > h3 {
+    font-family: monospace;
+  }
+
+  div:nth-of-type(5) > h3 {
+    font-style: italic
+  }
+
+  div:nth-of-type(3) {
+    height: 100px;
+  }
+
+  div:nth-child(odd) h3 {
+    font-style: italic
+  }
